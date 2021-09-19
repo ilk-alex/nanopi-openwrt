@@ -45,4 +45,13 @@ CONFIG_DRIVER_11AC_SUPPORT=y
 CONFIG_DRIVER_11N_SUPPORT=y
 CONFIG_DRIVER_11W_SUPPORT=y
 
+CONFIG_PACKAGE_kmod-usb-net-rndis=y
+CONFIG_PACKAGE_kmod-usb-net-ipheth
+CONFIG_PACKAGE_kmod-netem=y
+CONFIG_KERNEL_netem=y
+CONFIG_PACKAGE_luci-app-nft-qos=y
+CONFIG_PACKAGE_tcpdump-mini=y
+CONFIG_PACKAGE_port-mirroring=y
+
+
 CONFIG_PACKAGE_luci-app-oled=y
